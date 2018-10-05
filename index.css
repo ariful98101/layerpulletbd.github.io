@@ -1,0 +1,256 @@
+@font-face{
+	font-family: Bistecca;
+	src:url(Bistecca.woff);
+}
+
+
+@keyframes slideranimation {
+
+	0% {
+		left: 0px;
+	}
+
+	10% /* 1st Image */
+	 {
+		left: 0px;
+	}
+
+	15% {
+		left:-643px;
+	}
+	25% /* 2nd Image */
+	{
+		left: -643px;
+	}
+
+	30% {
+		left: -1286px;
+	}
+	40% /* 3rd Image */
+	{
+		left: -1286px;
+	}
+	45% {
+		left: -1929px;
+	}
+	55% /* 5th Image */
+	{
+		left: -1929px;
+	}
+	60% {
+		left: -2572px;
+	}
+	70% /* 6th Image */
+	{
+		left: -2572px;
+	}
+	75% {
+		left: -3215px;
+	}
+	85% /* 5th Image */
+	{
+		left: -3215px;
+	}
+	90% {
+		left: -3858px;
+	}
+	100% /* 6th Image */
+	{
+		left: -3858px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {background-image:url(image/bgindex.png);
+background-size:cover;
+background-repeat:no-repeat}
+
+.header {
+    border:2px solid #00000066;
+    font-size:40px;
+    font-family:arial black;
+    color:white;
+    background-color:#00000045;
+    border-radius:10px;
+    margin:20px
+}
+
+.header_image {
+    width :50px;
+    height :50px;
+    margin-top:4px;
+    float:left;
+}
+
+#photoslide {
+    border:2px solid #00000054;
+    width: 48%;
+    height:400px;
+    background-color:#00000021;
+    border-radius:20px;
+    margin-top:40px;
+    float: left;
+    color: white;
+    font-family: arial ;
+    overflow: hidden;
+}
+
+.photoslide {
+	width: 3858px;
+	position: relative;
+	animation-name:slideranimation;
+	animation-duration: 60s; 
+	animation-iteration-count: infinite;
+}
+
+.photoslide img {
+	float: left;
+	width: 643px;
+	height: 404px;
+}
+
+#photoslide:hover {
+	transform: scale(1.02);
+	transition-duration: 2s;
+}
+
+
+.login {
+    border:3px solid #00000054;
+    width:47%;
+    height:400px;
+    float:left;
+    margin:40px 10px 0px;
+    border-radius:20px;
+    background-color: #00000021;
+    color: white;
+    font-family: arial black;
+      }
+
+       #header {
+          border:2px solid #0000005c;
+          width:98%;
+          height:40px;
+          margin:auto;
+          margin-top:10px;
+          border-radius:10px;
+          background-color:#00000033;
+          text-align:center;
+          font-family:arial black;
+          font-size: 20px
+      }
+
+      #content {
+          border:2px solid #0000005c;
+          width:98%;
+          height:260px;
+          margin:auto;
+          margin-top:10px;
+          border-radius:10px;
+          background-color:#00000033;
+          text-align:center;
+          font-family:arial black;
+
+      }
+
+
+     .foter {
+      	border:2px solid #0000005c;
+          width:98%;
+          height:159px;
+          margin:auto;
+          margin-top:10px;
+          border-radius:10px;
+          background-color:#00000033;
+          text-align: :center;
+          font-family:arial black;
+          float:left
+      }
+
+      .input_d {
+          margin-top:50px;
+          color:#fff;
+          background-color:#0000005e;
+          border-radius:10px;
+          width :97%;
+          height: 40px;
+          border:4px solid #00000075;
+          text-align:center;
+          font-family:comic sans;
+          font-size:larger;
+      }
+
+      .input_l {
+          width:97%;
+          height;100%;
+          background-color:#312a2a00;
+          font-family:arial black;
+          color:white;
+          border-radius:10px;
+          text-align:center;
+          border:0px;
+          margin-top:6px
+      }
+
+      	#foter:hover {
+      		transform: scale(1.02);
+      		transition-duration: 1s;
+      		border: 3px solid #0000009e;
+      	}
+
+     .foter img {
+          width:150px;
+          height:140px;
+          background-color:#00000047;
+          text-align: :center;
+          font-family:arial black;
+          float:left;
+          overflow: hidden;
+      }
+
+      .foter img:hover {
+      	transform: scale(.8);
+      	transition-duration: 1s;
+      	border-radius:20px;
+      }
+
+            #foter {
+          border:2px solid #0000005c;
+          width:98%;
+          height:40px;
+          margin:auto;
+          margin-top:10px;
+          border-radius:10px;
+          background-color:#00000033;
+          text-align: :center;
+          font-family:arial black;
+      }
+
+      .foter_img {
+          border:3px solid #f5eeee;
+          width:150px;
+          height:140px;
+          margin:8px 30px;
+          overflow:hidden;
+          float: left;
+          background-color:#150f0f54;
+          display: inline;
+      }

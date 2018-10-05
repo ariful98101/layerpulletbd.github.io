@@ -1,0 +1,67 @@
+/*This is arif .Make this staff deatisl style sheet from his own idea */
+
+body {
+	background-image: url('https://i.stack.imgur.com/vhoa0.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white
+}
+
+img.staff{
+	width: 200px;
+	height: 200px;
+	align-items:middle
+}
+
+div div:hover {
+	transform: scale(1.2);
+	transition-duration: 2s;
+}
+
+h1 {
+	font-family: Cooper Black;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+}
+
+div {
+	width: 322px;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+	color: white
+}
+p {
+	color:White;
+	font-family: Book Antiqua;
+	text-align: middle;
+	font-weight: bold;
+}
+
+.button {
+	background-color: #0014ff9c;
+    border: 2px solid #ff43437a;
+    margin-left: 20px;
+    height: 30px;
+    width: 93px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 4px
+}
+
+button:hover {
+	transform: scale(.98);
+	background-color: lightblue;
+
+
+}
+
+button:active {
+	background-color: orangered;
+}
+.button a { text-decoration:none;
+	text-transform: uppercase;
+	color: white; }

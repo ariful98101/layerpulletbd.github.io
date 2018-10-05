@@ -1,0 +1,243 @@
+/*Wellcome to the 1st page.I am try to make a website & here the desgin css file  */
+
+/*This is use for body Link */
+
+body{
+	background-image:url("http://harrogate-scene.com/wp-content/uploads/2018/05/superb-cute-chicken-hd-background-wallpaper-19979-baltana-within-superb-cute-chicken.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: none;
+}
+/*This is use for welcome Link */
+
+ h1.welcome {
+	color: purple;
+	font-family: Castellar;
+	text-transform: uppercase;
+
+}
+
+div.welcome {
+	width:100%;
+	overflow: hidden;
+	display: block;
+}
+/*This is use for Hompage Link */
+
+a.hompage {
+	text-decoration: none;
+	font-family: Castellar;
+	background-color: rgba(102,255,102,.6);
+}
+
+p.hompage_text {
+	color: blue
+}
+
+/*This is use for Farm Link */
+
+img.layer {
+	width: 22px;
+	height:22px;
+	float: left;
+}
+
+img.pullet {
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-right: 6px;
+}
+
+h1.farm_1 {
+	font-size: 100%;
+	text-decoration:none;
+
+}
+a.farm_1 {
+	text-decoration: none;
+
+}
+
+p.farm_1{
+	color: red;
+	margin-left: 4px;
+}
+
+h1.farm_2 {
+	font-size: 100%;
+	text-decoration:none;
+}
+a.farm_2 {
+	text-decoration: none;
+}
+
+p.farm_2{
+	color: blue;
+
+}
+
+div.hompage{
+	width: 100%
+	height:auto;
+}
+
+div.farm {
+	width: 300px;
+	height: 400px;
+	 float: left;
+	 border: 2px solid #07ad0a;
+	 padding-left: 100px;
+	 margin-right: 2px;
+	 border-radius: 10px;
+	 background-color: #f0ffff63;
+	 text-overflow: hidden;
+	 font-family:"Chakra Petch";
+	 text-decoration: none;
+
+}
+
+div.comment{
+	 width: 450px;
+	 height: 400px ;
+	 float: left;
+	 border: 2px solid #07ad0a;
+	 border-radius: 10px;
+	 background-color: #f0ffff63;
+	 text-overflow: hidden;
+	 font-family: Bitter;
+	 font-size: .8em;
+}
+
+div.table {
+	width: 700px;
+	height: 212px;
+	margin-top: 10px;
+	float: left;
+	text-overflow: hidden;
+	position: relative;
+}
+div.comment img {
+	width: 100px
+	height:100px;
+}
+
+div img {
+	width: 1300px;
+	height:150px;
+
+ }
+
+div.table {
+	width: 800px;
+	height: 212px;
+	overflow: scroll;
+	float: left;
+	overflow-x: hidden;
+}
+
+div.comment:hover{background-color: #03fff940;
+	transform: scale(1.05);
+	transition-duration: .5s;
+}
+
+div.farm:hover{background-color:#ffff0054;
+transform: scale(1.05);
+transition-duration: .5s;
+}
+
+img:hover {
+	transform: scale(1.05);
+	transition-duration: .5s;
+}
+
+img.foter:hover {
+	transform: scale(.98);
+	transition-duration: 1s;
+}
+
+div.hompage:hover {
+	transform: scale(1.2);
+	transition-duration: 1s;
+}
+
+div.staff {
+	width:250px;
+	height: 212px;
+	float: left;
+	margin-top: 5px;
+	border-radius: 10px;
+	background-color: #05626914;
+	position: relative;
+	border: 2px solid rgba(0,0, 0, .5);
+}
+
+.box1 {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+
+}
+
+.box1 img {
+	height: 100%;
+	width: 100%;
+
+}
+
+
+a.staff {
+	text-decoration: none;
+	color: #f0ffff63;
+	color: red;
+	text-overflow: hidden;
+}
+
+table.table_1 {
+	border-collapse:collapse;
+	border-radius:10px;
+	margin-top: 4px;
+}
+tr.tr_2{
+	text-align: center;
+	margin-top:3px;
+	background-color:rgba(248,251,188,.5);
+	color: #7F0034
+}
+
+.foter img {
+          width:150px;
+          height:140px;
+          background-color:#00000047;
+          text-align: :center;
+          font-family:arial black;
+          float:left;
+      }
+
+      .foter img:hover {
+      	transform: scale(.8);
+      	transition-duration: 1s;
+      	border-radius:20px;
+      }
+
+            #foter {
+          border:2px solid #0000005c;
+          width:98%;
+          height:40px;
+          margin:auto;
+          margin-top:10px;
+          border-radius:10px;
+          background-color:#00000033;
+          text-align: :center;
+          font-family:arial black;
+      }
+
+      .foter_img {
+          border:3px solid #f5eeee;
+          width:150px;
+          height:140px;
+          margin:8px 30px;
+          overflow:hidden;
+          float: left;
+          background-color:#150f0f54
+      }

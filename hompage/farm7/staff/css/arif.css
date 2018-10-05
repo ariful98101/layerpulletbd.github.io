@@ -1,0 +1,43 @@
+/* this style sheet i use for all staff profile */
+
+body{
+	background-image:url(../../../chickbg.gif);
+	background-position: center;
+	background-size: cover;
+}
+
+div.image {
+	width: 90%;
+	height: 300px;
+	overflow: none;
+	float: middle;
+
+}
+img.arif {
+	height: 300px;
+	width: 300px;
+}
+
+div.title {
+	width: 400px;
+	float: left;
+	padding-left: 300px;
+	margin-top: 40px;
+	font-family: Constantia;
+	color: #00264d
+}
+
+div.details {
+	width: 480px;
+	float: left;
+	margin-top:40px;
+	font-family: Constantia;
+	color: #003300
+
+
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}

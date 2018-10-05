@@ -1,0 +1,50 @@
+body {
+			background-image: url('https://www.schnauzi.com/wp-content/uploads/2012/09/pollito-usa-sombrero.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+
+		}
+
+		.countdownContainer {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			text-align: center;
+			background: #7b56564f;
+			border: 1px solid #999;
+			padding: 10px;
+			box-shadow: 0 0 5px 3px #ccc;
+			font-family: 'Roboto Slab'
+		}
+
+		.countdownContainer:hover {
+			transition-duration: 2s;
+			background-color: #ffff0050;
+		}
+
+		.countdownContainer1 {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			text-align: center;
+			background: #7b56564f;
+			border: 1px solid #999;
+			padding: 10px;
+			box-shadow: 0 0 5px 3px #ccc;
+			margin-top:140px; 
+			font-size: 36px;
+			color: red;
+			font-family: 'Roboto Slab'
+		}
+
+		.countdownContainer1:hover {
+			transition-duration: 2s;
+			background-color: #ff00ff50;
+		}
+
+		.info {
+			font-size: 80px;
+		}
+

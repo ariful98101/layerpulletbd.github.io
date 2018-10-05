@@ -1,0 +1,229 @@
+@font-face {
+	font-family: title;
+	src:url("../font/title.woff");
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.all {
+	background-image: url(../image/fmbg.png);
+	background-size: 100% 100%;
+	height: 100vh;
+	width: 100%;
+	overflow: scroll;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+}
+.leftHeader {
+	width: 20%;
+	height: 100%;
+	float: left;
+
+}
+
+.leftHeader img {
+	width: 40%;
+	height: 70px;
+	text-align: center;
+	border: 2px solid white;
+	margin-top:10px;
+	margin-left: 16px;
+	background-color: rgba(0, 0, 0, .5)
+}
+
+.leftHeader img:hover {
+	transform: scale(.98);
+	background-color: white;
+}
+
+.middleHeader {
+	width: 40%;
+	height: 100%;
+	text-align:center;
+	float: left;
+	color: white;
+	font-family:Castellar;
+
+}
+.middleHeader h2 {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 25px;
+}
+.middleHeader h3 {
+	margin-top: 13px;
+	font-size: 14px;
+}
+
+.rightHeader {
+	float: left;
+	width: 40%;
+	height:100%;
+	color: white;
+}
+
+.rightHeader ul {
+	list-style-type: none;
+	text-align: center;
+	line-height: 100%;
+
+}
+.rightHeader ul li {
+	display: inline-block;
+	text-align: center;
+	font-weight:bold;
+	margin: 30px 10px;
+	text-transform: uppercase;
+	background-color: #ff000047;
+	border: 2px solid #ada8a866;
+	padding: 10px;
+
+	}
+	.rightHeader ul li a{
+		text-decoration: none;
+		color: white;
+	}
+	.rightHeader ul li:hover {
+		background-color: blue;
+	}
+.rightHeader ul li:active {
+		background-color: red;
+	}
+	#contact{
+		background-color: blue;
+
+	}
+#contact:hover {
+	background-color: #0000ff47;
+}
+
+#contact:active {
+	background-color: red;
+}
+
+
+/* this is use for Body */
+
+.body {
+	width: 100%;
+	height: 380px;
+}
+
+#bodyLeft {
+	width: 300px;
+	height: 380px;
+	margin-left: 5px;
+	float: left;
+
+}
+#bodyLeft div {
+	padding: 4px;
+	height: 35px;
+	margin-top: 25px;
+	width:90%;
+	margin-left:6px;
+}
+
+#bodyLeft div button {
+	width:100%;
+	height:100%;
+	background-color:#00000066;
+	outline: 4px solid #ffffff3b;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+	border-radius:10px;
+
+}
+
+#bodyRight {
+	width: 76%;
+	height: 380px;
+	float: left; 
+}
+
+#block1 {
+	height: 98%;
+	width: 97%;
+	margin: auto;
+	overflow: hidden;
+	display: block;
+	font-family: 'K2D';
+}
+#block2 {
+	height: 98%;
+	width: 97%;
+	margin: auto;
+	overflow: hidden;
+	display: none;
+	font-family: 'K2D';
+}
+
+#block3 {
+	height: 98%;
+	width: 97%;
+	margin: auto;
+	overflow: hidden;
+	display: none;
+	font-family: 'K2D';
+}
+#block4 {
+	height: 98%;
+	width: 97%;
+	margin: auto;
+	overflow: hidden;
+	display: none;
+	font-family: 'K2D';
+}
+
+#block5 {
+	height: 98%;
+	width: 97%;
+	margin: auto;
+	overflow: hidden;
+	display: none;
+	font-family: 'K2D';
+}
+
+
+.linkToDetails {
+	color: red;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial black;
+}
+/* This use for foter */
+
+.foter {
+	width: 100%;
+	height:120px;
+}
+
+.img {
+	width: 11%;
+	height:100px;
+	float: left;
+	margin-top:9px;
+	margin-left:60px;
+	outline: 4px solid white;
+}
+
+.img img {
+	height: 100%;
+	width:100%;
+}
+
+.img img:hover {
+	transform: scale(.85);
+	transition-duration: 1s;
+	border-radius: 15px;
+}
+
